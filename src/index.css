@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  /* ==============================
+     COLORS
+     ============================== */
+
+  /* Backgrounds */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f8fb;
+  --color-bg-muted: #f1f3f5;
+  --color-navbar:#141B21;
+
+  /* Dark */
+  --color-bg-dark: #111820;
+  --color-bg-dark-hover: #1b2530;
+
+  /* Text */
+  --color-text-primary: #111111;
+  --color-text-secondary: #555555;
+  --color-text-muted: #8a8a8a;
+  --color-text-light: #ffffff;
+
+  /* Brand */
+  --color-primary: #f97316;
+  --color-primary-hover: #ea580c;
+  --color-primary-light: #fff7ed;
+  --color-accent: #f97316;
+
+  /* Borders */
+  --color-border: #e5e7eb;
+  --color-border-light: #f0f0f0;
+  --color-border-dark: #d1d5db;
+
+  /* E-commerce */
+  --color-price: #111111;
+  --color-discount: #16a34a;
+  --color-sale: #ef4444;
+  --color-rating: #f59e0b;
+
+  /* Status */
+  --color-success: #16a34a;
+  --color-success-light: #dcfce7;
+
+  --color-warning: #f59e0b;
+  --color-warning-light: #fef3c7;
+
+  --color-danger: #ef4444;
+  --color-danger-light: #fee2e2;
+
+  --color-info: #3b82f6;
+  --color-info-light: #dbeafe;
+
+  /* Basic */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+
+  /* ==============================
+     SHADOWS
+     ============================== */
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.10);
+
+
+  /* ==============================
+     BORDER RADIUS
+     ============================== */
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+}
+
+.icons {
+
+    @apply  flex items-center justify-center gap-1 hover:text-yellow-400 cursor-pointer;
+}
+
+::-webkit-scrollbar{
+   display: hidden;
+}
